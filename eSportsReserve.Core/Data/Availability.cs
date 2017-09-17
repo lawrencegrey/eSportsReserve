@@ -12,6 +12,8 @@ namespace eSportsReserve.Core.Data
         public Player PlayerID { get; set; }
         public Boolean Available { get; set; }
 
+        //sdfgsdfg
+
         public virtual ICollection<Player> Players { get; set; }
       
     }
