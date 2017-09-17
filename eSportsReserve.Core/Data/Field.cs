@@ -16,5 +16,7 @@ namespace eSportsReserve.Core.Data
         public User CreatedBy { get; set; }
         public DateTime UpdatedAt { get; set; }
         public User UpdatedBy { get; set; }
+
+        public virtual User User { get; set; }
     }
 }

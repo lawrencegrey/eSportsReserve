@@ -24,6 +24,8 @@ namespace eSportsReserve.Core.Manager
         private IQueryable<Player> PlayerInfo()
         {
             return _player
+                .Include(p => p.User)
+                .Include(p => p.User.Avatar)
                 .OrderBy(p => p.LastName);
         }
 
@@ -56,15 +58,15 @@ namespace eSportsReserve.Core.Manager
             return _dbContext.SaveChangesAsync();
         }
 
-        public Task UpdatePlayer(Player Player)
+        public Task UpdatePlayer(Player player)
         {
-            _player.Update(Player);
+            _player.Update(player);
             return _dbContext.SaveChangesAsync();
         }
 
-        public Task DeletePlayer(Player Player)
+        public Task DeletePlayer(Player player)
         {
-            _player.Remove(Player);
+            _player.Remove(player);
             return _dbContext.SaveChangesAsync();
         }
 

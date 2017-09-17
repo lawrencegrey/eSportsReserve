@@ -8,7 +8,7 @@ namespace eSportsReserve.Core.Data
     public class Player
     {
         public Guid Id { get; set; }
-        public Guid Avatar { get; set; }
+        public Guid UserId { get; set; }
         public String FirstName { get; set; }
         public String LastName { get; set; }
         public String Email { get; set; }
@@ -21,5 +21,9 @@ namespace eSportsReserve.Core.Data
         public User CreatedBy { get; set; }
         public DateTime UpdatedAt { get; set; }
         public User UpdatedBy { get; set; }
+
+
+        public virtual User User { get; set; }
+        
     }
 }
