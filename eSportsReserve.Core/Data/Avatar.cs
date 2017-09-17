@@ -4,14 +4,12 @@ using System.Text;
 
 namespace eSportsReserve.Core.Data
 {
-    public class User
+    public class Avatar
     {
         public Guid Id { get; set; }
-        public String Email  { get; set; }
-        public String Password { get; set; }
-       
-        public Avatar
+        public Guid UserId { get; set; }
+        public String ImageUrl { get; set; }
 
-
+        public User User { get; set; }
     }
 }
