@@ -10,6 +10,6 @@ namespace eSportsReserve.Core.Data
         public Guid UserId { get; set; }
         public String ImageUrl { get; set; }
 
-        public virtual User User { get; set; }
+        public virtual Guid User { get; set; }
     }
 }

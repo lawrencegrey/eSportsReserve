@@ -1,0 +1,9 @@
+C:\Users\Lawrence\Documents\Visual Studio 2017\Projects\eSportsReserve.Core\eSportsReserve.Core\bin\Debug\netcoreapp2.0\eSportsReserve.Core.deps.json
+C:\Users\Lawrence\Documents\Visual Studio 2017\Projects\eSportsReserve.Core\eSportsReserve.Core\bin\Debug\netcoreapp2.0\eSportsReserve.Core.dll
+C:\Users\Lawrence\Documents\Visual Studio 2017\Projects\eSportsReserve.Core\eSportsReserve.Core\bin\Debug\netcoreapp2.0\eSportsReserve.Core.pdb
+C:\Users\Lawrence\Documents\Visual Studio 2017\Projects\eSportsReserve.Core\eSportsReserve.Core\obj\Debug\netcoreapp2.0\eSportsReserve.Core.csprojResolveAssemblyReference.cache
+C:\Users\Lawrence\Documents\Visual Studio 2017\Projects\eSportsReserve.Core\eSportsReserve.Core\obj\Debug\netcoreapp2.0\eSportsReserve.Core.csproj.CoreCompileInputs.cache
+C:\Users\Lawrence\Documents\Visual Studio 2017\Projects\eSportsReserve.Core\eSportsReserve.Core\obj\Debug\netcoreapp2.0\eSportsReserve.Core.AssemblyInfoInputs.cache
+C:\Users\Lawrence\Documents\Visual Studio 2017\Projects\eSportsReserve.Core\eSportsReserve.Core\obj\Debug\netcoreapp2.0\eSportsReserve.Core.AssemblyInfo.cs
+C:\Users\Lawrence\Documents\Visual Studio 2017\Projects\eSportsReserve.Core\eSportsReserve.Core\obj\Debug\netcoreapp2.0\eSportsReserve.Core.dll
+C:\Users\Lawrence\Documents\Visual Studio 2017\Projects\eSportsReserve.Core\eSportsReserve.Core\obj\Debug\netcoreapp2.0\eSportsReserve.Core.pdb

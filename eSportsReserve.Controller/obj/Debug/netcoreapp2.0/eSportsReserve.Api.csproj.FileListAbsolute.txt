@@ -1,0 +1,13 @@
+C:\Users\Lawrence\Documents\Visual Studio 2017\Projects\eSportsReserve.Core\eSportsReserve.Api\bin\Debug\netcoreapp2.0\eSportsReserve.Api.deps.json
+C:\Users\Lawrence\Documents\Visual Studio 2017\Projects\eSportsReserve.Core\eSportsReserve.Api\bin\Debug\netcoreapp2.0\eSportsReserve.Api.runtimeconfig.json
+C:\Users\Lawrence\Documents\Visual Studio 2017\Projects\eSportsReserve.Core\eSportsReserve.Api\bin\Debug\netcoreapp2.0\eSportsReserve.Api.runtimeconfig.dev.json
+C:\Users\Lawrence\Documents\Visual Studio 2017\Projects\eSportsReserve.Core\eSportsReserve.Api\bin\Debug\netcoreapp2.0\eSportsReserve.Api.dll
+C:\Users\Lawrence\Documents\Visual Studio 2017\Projects\eSportsReserve.Core\eSportsReserve.Api\bin\Debug\netcoreapp2.0\eSportsReserve.Api.pdb
+C:\Users\Lawrence\Documents\Visual Studio 2017\Projects\eSportsReserve.Core\eSportsReserve.Api\bin\Debug\netcoreapp2.0\eSportsReserve.Core.dll
+C:\Users\Lawrence\Documents\Visual Studio 2017\Projects\eSportsReserve.Core\eSportsReserve.Api\bin\Debug\netcoreapp2.0\eSportsReserve.Core.pdb
+C:\Users\Lawrence\Documents\Visual Studio 2017\Projects\eSportsReserve.Core\eSportsReserve.Api\obj\Debug\netcoreapp2.0\eSportsReserve.Api.csprojResolveAssemblyReference.cache
+C:\Users\Lawrence\Documents\Visual Studio 2017\Projects\eSportsReserve.Core\eSportsReserve.Api\obj\Debug\netcoreapp2.0\eSportsReserve.Api.csproj.CoreCompileInputs.cache
+C:\Users\Lawrence\Documents\Visual Studio 2017\Projects\eSportsReserve.Core\eSportsReserve.Api\obj\Debug\netcoreapp2.0\eSportsReserve.Api.AssemblyInfoInputs.cache
+C:\Users\Lawrence\Documents\Visual Studio 2017\Projects\eSportsReserve.Core\eSportsReserve.Api\obj\Debug\netcoreapp2.0\eSportsReserve.Api.AssemblyInfo.cs
+C:\Users\Lawrence\Documents\Visual Studio 2017\Projects\eSportsReserve.Core\eSportsReserve.Api\obj\Debug\netcoreapp2.0\eSportsReserve.Api.dll
+C:\Users\Lawrence\Documents\Visual Studio 2017\Projects\eSportsReserve.Core\eSportsReserve.Api\obj\Debug\netcoreapp2.0\eSportsReserve.Api.pdb

@@ -19,8 +19,7 @@ namespace eSportsReserve.Core
         public virtual DbSet<Player> Player { get; set; }
         public virtual DbSet<PlayerGroup> PlayerGroup { get; set; }
         public virtual DbSet<Reservation> Reservation { get; set; }
-        public virtual DbSet<User> User  { get; set; }
-
+        public virtual DbSet<Data.Guid> User  { get; set; }
         
     }
 }

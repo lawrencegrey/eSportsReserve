@@ -4,6 +4,7 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Logging;
 using eSportsReserve.Core.Data;
 using System.Collections.Generic;
+using System.Data;
 using System;
 
 namespace eSportsReserve.Core.Manager
@@ -80,11 +81,18 @@ namespace eSportsReserve.Core.Manager
         public async Task<IList<Group>> GetGroupByName(string name)
         {
             return await GroupInfo()
-                .Where(g => g.Name.Equals(name))
+                .Where(g => g.Name.Contains(name))
                 .ToListAsync();
         }
 
-        public async Task<IList<Group>> GetGroupsIOwn(Guid captainid)
+        public async Task<IList<Group>> GetGroupById(System.Guid Id)
+        {
+            return await GroupInfo()
+                .Where(g => g.Id.Equals(Id))
+                .ToListAsync();
+        }
+
+        public async Task<IList<Group>> GetGroupsIOwn(System.Guid captainid)
         {
             return await GroupInfo()
                 .Where(g => g.CaptainId.Equals(captainid))
@@ -93,14 +101,14 @@ namespace eSportsReserve.Core.Manager
 
 
         //Player Group 
-        public async Task<IList<PlayerGroup>> GetPlayerGroups(Guid playerid)
+        public async Task<IList<PlayerGroup>> GetPlayerGroups(System.Guid playerid)
         {
             return await PlayerGroupInfo()
                 .Where(g => g.PlayerId.Equals(playerid))
                 .ToListAsync();
         }
 
-        public async Task<IList<PlayerGroup>> GetPlayersInGroup(Guid groupid)
+        public async Task<IList<PlayerGroup>> GetPlayersInGroup(System.Guid groupid)
         {
             return await PlayerGroupInfo()
                 .Where(g => g.GroupId.Equals(groupid))
@@ -126,10 +134,9 @@ namespace eSportsReserve.Core.Manager
             return _dbContext.SaveChangesAsync();
         }
 
-
-
+      
         //Group Invitation
-        public async Task<IList<GroupInvitation>> GetGroupInvitation(Guid groupid)
+        public async Task<IList<GroupInvitation>> GetGroupInvitation(System.Guid groupid)
         {
             return await GroupInvitationInfo()
                 .Where(g => g.GroupId.Equals(groupid))

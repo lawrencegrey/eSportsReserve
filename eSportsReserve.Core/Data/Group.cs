@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
+using eSportsReserve.Core.Enum;
 
 namespace eSportsReserve.Core.Data
 {
@@ -8,16 +9,17 @@ namespace eSportsReserve.Core.Data
     {
         public Guid Id { get; set; }
         public String Name { get; set; }
-        public Player CaptainId { get; set; }
+        public Guid CaptainId { get; set; }
+        public GroupType GroupType { get; set; }
         //public String GroupPass { get; set; }
 
         public DateTime CreatedAt { get; set; }
-        public User CreatedBy { get; set; }
+        public Guid CreatedBy { get; set; }
         public DateTime UpdatedAt { get; set; }
-        public User UpdatedBy { get; set; }
+        public Guid UpdatedBy { get; set; }
 
         public virtual Player Player { get; set; }
-        public virtual User User { get; set; }
+        public virtual Guid User { get; set; }
 
         public virtual ICollection<GroupInvitation> GroupInvitations { get; set; }
         public virtual PlayerGroup PlayerGroup { get; set; }

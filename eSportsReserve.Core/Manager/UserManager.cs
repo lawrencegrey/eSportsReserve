@@ -14,7 +14,7 @@ namespace eSportsReserve.Core.Manager
         private readonly ApplicationDbContext _dbContext;
 
         private readonly DbSet<Avatar> _avatar;
-        private readonly DbSet<User> _user;
+        private readonly DbSet<Data.Guid> _user;
        
 
         private readonly ILogger _logger;
@@ -22,7 +22,7 @@ namespace eSportsReserve.Core.Manager
         public UserManager(ApplicationDbContext dbContext, ILogger<UserManager> logger)
         {
             _avatar = _dbContext.Set<Avatar>();
-            _user = _dbContext.Set<User>();
+            _user = _dbContext.Set<Data.Guid>();
           
 
             _logger = logger;
@@ -34,14 +34,14 @@ namespace eSportsReserve.Core.Manager
               .OrderBy(a => a.UserId);
         }
 
-        private IQueryable<User> UserInfo()
+        private IQueryable<Data.Guid> UserInfo()
         {
             return _user;
                
         }
 
         //avatar
-        public async Task<IList<Avatar>> GetUserAvatar(Guid userid)
+        public async Task<IList<Avatar>> GetUserAvatar(System.Guid userid)
         {
             return await AvatarInfo()
                 .Where(a => a.UserId.Equals(userid))
@@ -68,7 +68,7 @@ namespace eSportsReserve.Core.Manager
 
         //user
 
-        public async Task<IList<User>> GetUserDetails(Guid userid)
+        public async Task<IList<Data.Guid>> GetUserDetails(System.Guid userid)
         {
             return await UserInfo()
                 .Where(a => a.Id.Equals(userid))
@@ -76,19 +76,19 @@ namespace eSportsReserve.Core.Manager
         }
 
 
-        public Task CreateUser(User user)
+        public Task CreateUser(Data.Guid user)
         {
             _user.Add(user);
             return _dbContext.SaveChangesAsync();
         }
 
-        public Task UpdateUser(User user)
+        public Task UpdateUser(Data.Guid user)
         {
             _user.Update(user);
             return _dbContext.SaveChangesAsync();
         }
 
-        public Task DeleteUser(User user)
+        public Task DeleteUser(Data.Guid user)
         {
             _user.Remove(user);
             return _dbContext.SaveChangesAsync();

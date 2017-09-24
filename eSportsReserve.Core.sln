@@ -5,9 +5,15 @@ VisualStudioVersion = 15.0.26730.15
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "eSportsReserve.Core", "eSportsReserve.Core\eSportsReserve.Core.csproj", "{70DC6094-091E-4276-A4EC-0557532DBDDD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "eSportsReserve.Client", "eSportsReserve.Client\eSportsReserve.Client.csproj", "{6CD91AAF-7E26-4584-8288-66A3A1F29151}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "eSportsReserve.Client", "eSportsReserve.Client\eSportsReserve.Client.csproj", "{6CD91AAF-7E26-4584-8288-66A3A1F29151}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "eSportsReserve.Admin", "eSportsReserve.Admin\eSportsReserve.Admin.csproj", "{70CB084A-0DCD-403E-909F-C0CF61020536}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "eSportsReserve.Admin", "eSportsReserve.Admin\eSportsReserve.Admin.csproj", "{70CB084A-0DCD-403E-909F-C0CF61020536}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "eSportsReserve.Controller", "eSportsReserve.Controller\eSportsReserve.Controller.csproj", "{FCC80680-79AC-49F9-A8EF-9EEA1192757B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "eSportsReserve.Api", "eSportsReserve.Api\eSportsReserve.Api.csproj", "{6394FA87-EF25-49A6-AEB3-30070397029C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "eSportsReserve.Abstractions", "eSportsReserve.Abstractions\eSportsReserve.Abstractions.csproj", "{4366A13A-1F6F-43B0-B3EA-03F1EAFBB02D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +33,18 @@ Global
 		{70CB084A-0DCD-403E-909F-C0CF61020536}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{70CB084A-0DCD-403E-909F-C0CF61020536}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{70CB084A-0DCD-403E-909F-C0CF61020536}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FCC80680-79AC-49F9-A8EF-9EEA1192757B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FCC80680-79AC-49F9-A8EF-9EEA1192757B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FCC80680-79AC-49F9-A8EF-9EEA1192757B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FCC80680-79AC-49F9-A8EF-9EEA1192757B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6394FA87-EF25-49A6-AEB3-30070397029C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6394FA87-EF25-49A6-AEB3-30070397029C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6394FA87-EF25-49A6-AEB3-30070397029C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6394FA87-EF25-49A6-AEB3-30070397029C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4366A13A-1F6F-43B0-B3EA-03F1EAFBB02D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4366A13A-1F6F-43B0-B3EA-03F1EAFBB02D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4366A13A-1F6F-43B0-B3EA-03F1EAFBB02D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4366A13A-1F6F-43B0-B3EA-03F1EAFBB02D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

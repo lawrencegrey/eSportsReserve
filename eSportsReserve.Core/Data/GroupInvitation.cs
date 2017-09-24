@@ -7,6 +7,7 @@ namespace eSportsReserve.Core.Data
 {
     public class GroupInvitation
     {
+        public Guid Id { get; set; }
         public Guid GroupId { get; set; }
         public string ContactInfo { get; set; }
         public ContactPreference ContactPreference { get; set; }

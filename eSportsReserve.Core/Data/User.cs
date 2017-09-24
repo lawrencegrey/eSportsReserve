@@ -4,7 +4,7 @@ using System.Text;
 
 namespace eSportsReserve.Core.Data
 {
-    public class User
+    public class Guid
     {
         public Guid Id { get; set; }
         public Guid AvatarId { get; set; }
